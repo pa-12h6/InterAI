@@ -1,0 +1,28 @@
+{
+  "name": "interai-backend",
+  "version": "1.0.0",
+  "description": "AI Interview Preparation Platform Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^1.0.8",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^5.1.0",
+    "groq-sdk": "^1.6.0",
+    "jsonwebtoken": "^9.0.2",
+    "mammoth": "^1.12.2",
+    "mongoose": "^8.18.0",
+    "multer": "^2.3.0",
+    "pdf-parse": "^1.1.1",
+    "pdfjs-dist": "^6.3.289",
+    "tesseract.js": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
