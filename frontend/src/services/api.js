@@ -1,4 +1,4 @@
-const API_URL = "https://interai-backend.onrender.com";
+const API_URL = "https://interai-backend.onrender.com/api";
 
 export const registerUser = async (userData) => {
   const response = await fetch(`${API_URL}/auth/register`, {
